@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import Container from "../shared/Container";
-import { Link, NavLink } from "react-router";
+import { NavLink } from "react-router";
 
 const Footer = () => {
   return (
