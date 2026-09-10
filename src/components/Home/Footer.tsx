@@ -19,16 +19,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="lg:w-[45%]">
-            <h3 className="text-[1.2rem] font-semibold text-white mb-2">
-              Pages
-            </h3>
-            <div className="flex gap-3 text-white flex-wrap">
-              <Link to="/">Home</Link>
-              <Link to="/products">Products</Link>
-              <Link to="/about-us">About Us</Link>
-            </div>
-          </div>
+         
 
           <div className="lg:w-[20%]">
             <h3 className="text-[1.2rem] font-semibold text-white mb-2">

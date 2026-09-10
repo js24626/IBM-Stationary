@@ -21,7 +21,7 @@ import { FieldValues, SubmitHandler } from "react-hook-form";
 import { Navigate, useNavigate } from "react-router";
 import { toast } from "sonner";
 
-const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL || "admin@doodle.com";
+const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL || "admin@ibm.com";
 const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || "admin123";
 
 const createAdminToken = (email: string) => {
@@ -96,9 +96,6 @@ const Login = () => {
             <DoodleForm onSubmit={handleLogin}>
               <DoodleInput name="email" label="Email" type="text" />
               <DoodleInput name="password" label="Password" type="password" />
-              <div className="text-xs text-muted-foreground">
-                Demo admin: {ADMIN_EMAIL} / {ADMIN_PASSWORD}
-              </div>
               <Button type="submit" disabled={lLoading}>
                 {lLoading && <Loader2 className="animate-spin" />}
                 Login

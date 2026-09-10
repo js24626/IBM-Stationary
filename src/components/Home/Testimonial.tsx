@@ -49,7 +49,7 @@ const Testimonial = () => {
       <Container>
         <div className="text-center">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8 lg:mb-10">
-            Testimonials
+            Customer Reviews
           </h3>
         </div>
         <Carousel className="w-[70%] mx-auto">
